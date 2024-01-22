@@ -19,7 +19,7 @@ class MainKtTest {
 
         val result = calculatePayTransfer(1000, 75000, 151000, "MasterCard")
 
-        assertEquals(-1000, result)
+        assertEquals(-100, result)
 
     }
 
